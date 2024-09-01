@@ -4,6 +4,6 @@ Verschiedene Bash Scripte für die einfach Installation diverser nützlicher Ope
 
 ## Installation
 
-wget https://github.com/Proxserver/sh/raw/main/DeinScript.sh 
-chmod +x DeinScript.sh 
-./DeinScript.sh
+wget https://github.com/Proxserver/Bash-Scripte/raw/main/Checkmk.sh 
+chmod +x Checkmk.sh 
+./Checkmk.sh
