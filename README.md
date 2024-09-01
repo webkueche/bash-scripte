@@ -7,3 +7,4 @@ Verschiedene Bash Scripte für die einfach Installation verscheidener Open Sourc
 wget https://github.com/Proxserver/sh/raw/main/uptimekuma.sh 
 chmod +x uptimekuma.sh 
 ./uptimekuma.sh
+ 
