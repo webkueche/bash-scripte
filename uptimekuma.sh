@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Uptime Kuma wird installiert..."
 
 apt update
 apt upgrade -y
