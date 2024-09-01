@@ -11,3 +11,5 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
 echo "Viel Spaß beim Monitoren Patrick"
+
+echo "Uptime Kuma login: http://deineIP:3001"
