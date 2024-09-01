@@ -1,13 +1,16 @@
 #!/bin/bash
 
-# Update und Upgrade des Systems # Installation von curl
-apt update && apt upgrade -y && apt install curl -y
+apt update
 
-# Docker Installation über das Docker-Skript
+apt upgrade -y
+
+apt install curl -y
+
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
 
 # Docker starten
 systemctl start docker
+
 systemctl start docker.service
 
 # Docker Volume für Uptime Kuma erstellen
@@ -18,3 +21,7 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 
 # Erfolgsmeldung
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
+
+wget https://github.com/Proxserver/sh/blob/main/uptimekuma.sh
+chmod +x uptimekuma.sh
+./uptimekuma.sh
