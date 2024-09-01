@@ -8,4 +8,6 @@ systemctl start docker
 systemctl start docker.service
 docker volume create uptime-kuma
 docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:latest
+
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
+echo "Viel Spaß beim Monitoren Patrick"
