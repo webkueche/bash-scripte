@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# Update und Upgrade des Systems
-apt update && apt upgrade -y
-
-# Installation von curl
-apt install curl -y
+# Update und Upgrade des Systems # Installation von curl
+apt update && apt upgrade -y && apt install curl -y
 
 # Docker Installation über das Docker-Skript
 curl -sSL https://get.docker.com/ | CHANNEL=stable sh
