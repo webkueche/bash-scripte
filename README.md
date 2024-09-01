@@ -4,6 +4,6 @@ Verschiedene Bash Scripte für die einfach Installation diverser nützlicher Ope
 
 ## Installation
 
-wget https://github.com/Proxserver/sh/raw/main/Uptimekuma.sh 
-chmod +x uptimekuma.sh 
-./uptimekuma.sh
+wget https://github.com/Proxserver/sh/raw/main/DeinScript.sh 
+chmod +x DeinScript.sh 
+./DeinScript.sh
