@@ -10,8 +10,6 @@ docker volume create uptime-kuma
 docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:latest
 
 echo "
-
-
    _____       .___                      
   /  _  \    __| _/____    _____   ______
  /  /_\  \  / __ |\__  \  /     \ /  ___/
