@@ -19,8 +19,8 @@ echo "
         \/      \/     \/      \/     \/ 
 "                                
 echo "www.proxserver.de"
-
+echo ""
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
-echo "Viel Spaß beim Monitoren mit UptimKuma"
-
 echo "Uptime Kuma login: http://localhost:3001"
+echo ""
+echo "Viel Spaß beim monitoren mit Uptime Kuma"
