@@ -19,6 +19,6 @@ ______               _       ___      _
 "                                                            
                                                             
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
-echo "Viel Spaß beim Monitoren Faruk"
+echo "Viel Spaß beim Monitoren mit UptimKuma"
 
 echo "Uptime Kuma login: http://localhost:3001"
