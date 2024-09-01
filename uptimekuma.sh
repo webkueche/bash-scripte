@@ -11,15 +11,17 @@ docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name upti
 
 echo "
 
-______               _       ___      _                     
-|  ___|             | |     / _ \    | |                    
-| |_ __ _ _ __ _   _| | __ / /_\ \ __| | __ _ _ __ ___  ___ 
-|  _/ _` | '__| | | | |/ / |  _  |/ _` |/ _` | '_ ` _ \/ __|
-| || (_| | |  | |_| |   <  | | | | (_| | (_| | | | | | \__ \
-\_| \__,_|_|   \__,_|_|\_\ \_| |_/\__,_|\__,_|_| |_| |_|___/
 
+   _____       .___                      
+  /  _  \    __| _/____    _____   ______
+ /  /_\  \  / __ |\__  \  /     \ /  ___/
+/    |    \/ /_/ | / __ \|  Y Y  \\___ \ 
+\____|__  /\____ |(____  /__|_|  /____  >
+        \/      \/     \/      \/
 "                                
+echo "www.proxserver.de"
 
 echo "Uptime Kuma wurde erfolgreich installiert und gestartet!"
 echo "Viel Spaß beim Monitoren mit UptimKuma"
+
 echo "Uptime Kuma login: http://localhost:3001"
