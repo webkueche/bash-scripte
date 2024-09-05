@@ -14,7 +14,8 @@ cd /opt
 git clone https://github.com/mailcow/mailcow-dockerized
 cd mailcow-dockerized
 ./generate_config.sh
-docker compose pull && docker compose up -d
+docker compose pull
+docker compose up -d
 
 echo "
    _____       .___                      
