@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Checkmk Kuma wird installiert..."
+echo "Checkmk Kuma installiert..."
 
 apt update
 apt upgrade -y
