@@ -4,6 +4,6 @@ Verschiedene Bash Scripte für die einfach Installation diverser nützlicher Ope
 
 ## Installation
 
-wget https://github.com/Proxserver/Bash-Scripte/raw/main/Checkmk.sh 
-chmod +x Checkmk.sh 
-./Checkmk.sh
+wget https://github.com/Proxserver/Bash-Scripte/raw/main/Mailcow.sh 
+chmod +x Mailcow.sh 
+./Mailcow.sh  
