@@ -79,10 +79,10 @@ a2enmod env
 a2enmod dir
 a2enmod mime
 
-# restart apache
+# Restart apache
 service apache2 restart
 
-# Ordner vorbereioten
+# Data folder
 mkdir /home/data/
 chown -R www-data:www-data /home/data/
 chown -R www-data:www-data /var/www/nextcloud/
