@@ -20,8 +20,8 @@ opcache.enable_cli=1
 opcache.memory_consumption=2048
 opcache.interned_strings_buffer=64
 opcache.max_accelerated_files=10000
-opcache.save_comments=1
 opcache.revalidate_freq=1
+opcache.save_comments=1
 
 # install Maria DB
 apt install mariadb-server -y
