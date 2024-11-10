@@ -17,14 +17,14 @@ date.timezone = Europe/Berlin
 output_buffering = Off
 opcache.enable=1
 opcache.enable_cli=1
+opcache.memory_consumption=2048
 opcache.interned_strings_buffer=64
 opcache.max_accelerated_files=10000
-opcache.memory_consumption=2048
 opcache.save_comments=1
 opcache.revalidate_freq=1
 
 # install Maria DB
-apt install mariadb-server
+apt install mariadb-server -y
 
 # maria DB Konfiguration
 mysql_secure_installation
@@ -36,7 +36,7 @@ mysql
 CREATE DATABASE nextcloud; 
 
 # create database user with password
-CREATE USER 'nextclouduser'@'localhost' IDENTIFIED BY 'qqppPierone_0031';
+CREATE USER 'nextclouduser'@'localhost' IDENTIFIED BY 'rgerbregergerg';
 #grant accesss to databse
 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextclouduser'@'localhost';
 #save changes and exit
@@ -52,9 +52,9 @@ mv nextcloud /var/www/
 nano /etc/apache2/sites-available/nextcloud.conf
 
 <VirtualHost *:80>
-     ServerAdmin admin@webkueche.com
+     ServerAdmin admin@rgrg.com
      DocumentRoot /var/www/nextcloud/
-     ServerName nextcloud.webkueche.com
+     ServerName nextcloud.rgrgrgr.com
 
      <Directory /var/www/nextcloud/>
         Options +FollowSymlinks
