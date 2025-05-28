@@ -79,7 +79,7 @@ a2enmod env
 a2enmod dir
 a2enmod mime
 
-# Restart apache
+# Restart apache Server
 service apache2 restart
 
 # Data folder
