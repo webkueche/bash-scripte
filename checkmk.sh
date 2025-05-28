@@ -27,5 +27,3 @@ echo "Benutzer: cmkadmin PW: Findest du nach eingabe des Befehls:"
 echo "docker container logs monitoring"
 echo ""
 echo "Viel Spaß beim monitoren mit Checkmk"
-
-# test Upload to git, this line can be deleted
